@@ -1,0 +1,18 @@
+experience {
+    height: 150vh;
+}
+
+/* ====== Media Queries (For medium sized devices) */
+@media screen and (max-width:1024px){
+    experience {
+        height:68vh;
+
+    }
+}
+
+/* ====== Media Queries (For small sized devices) */
+@media screen and (max-width:600px){
+    experience {
+        height: 100vh;
+    }
+}

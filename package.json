@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://mengyewgau91.com",
+  "homepage": "https://mengyewgau91.github.io/personal-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,9 +19,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject" 
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

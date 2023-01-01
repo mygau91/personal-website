@@ -1,6 +1,5 @@
 import React from 'react'
 import './portfolio.css'
-import rmpaper from '../../assets/rmpaper.pdf'
 import portfolio1 from '../../assets/portfolio1.jpg'
 import portfolio2 from '../../assets/portfolio2.jpg'
 import portfolio3 from '../../assets/portfolio3.jpg'
@@ -60,7 +59,7 @@ const data = [
     image: portfolio1,
     title: 'Risk Management in Tech Industry',
     skills: 'VaR | Risk Assessment | Financial Risk Management',
-    github: rmpaper,
+    github: "https://drive.google.com/file/d/1sJ23V4Enz8zfPwggkWQVjQPGQPrwMoTM/view?usp=sharing",
     demo: '',
   },
 ]

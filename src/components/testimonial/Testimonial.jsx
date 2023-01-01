@@ -1,10 +1,7 @@
 import React from 'react'
 import './testimonial.css'
-import testimonial1 from '../../assets/testimonial1.pdf'
 import testimonialCo1 from '../../assets/testimonialCo1.png'
-import testimonial2 from '../../assets/testimonial2.pdf'
 import testimonialCo2 from '../../assets/testimonialCo2.png'
-import testimonial3 from '../../assets/testimonial3.pdf'
 import testimonialCo3 from '../../assets/testimonialCo3.png'
 // SwiperJS functions
 import { Navigation, Pagination} from 'swiper';
@@ -57,19 +54,19 @@ const data = [
   {
     id: 3,
     title: 'Pufferfish Partners',
-    testimonial: testimonial3,
+    testimonial: "https://drive.google.com/file/d/1sctS1Cm4LSxlXx6qlJiIKcSIuPkATutF/view?usp=sharing",
     image: testimonialCo3,
   },
   {
     id: 2,
     title: 'Fewcents Co',
-    testimonial: testimonial2,
+    testimonial: "https://drive.google.com/file/d/1m8BI5YfPuYc6xzZ5xSa6rkOfb4YyukS7/view?usp=sharing",
     image: testimonialCo2,
   },
   {
     id: 1,
     title: 'Pacific International Lines',
-    testimonial: testimonial1,
+    testimonial: "https://drive.google.com/file/d/19fQUvbni7I5iYBQUj0xy4-Ur1xA6bH2z/view?usp=sharing",
     image: testimonialCo1,
   },
 ]

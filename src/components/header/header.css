@@ -1,5 +1,5 @@
 header {
-    height: 100vh;
+    height: 40vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -35,20 +35,6 @@ header {
     width: 1px;
     height: 4rem;
     background: var(--color-primary);
-}
-
-/* My picture */
-.me {
-    background: linear-gradient(var(--color-primary-variant), black);
-    width: 22rem;
-    height: 55rem;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 5rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 1rem 1.5rem 1.5rem 1.5rem;
 }
 
 

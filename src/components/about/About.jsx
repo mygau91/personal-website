@@ -45,10 +45,10 @@ const About = () => {
             </div>
 
             <p>
-              Hey there! I'm Meng Yew, but you can call me Michael if you like! I am an undergraduate in National University of Singapore, pursuing a double  degree (BBA/BSc) in Business Administration (Finance) and Business Analytics (Machine Learning). My interests currently lie in machine learning and data analytics, but I dabble in many other fields as well! Feel free to contact me for any details!
+               I am an undergraduate in National University of Singapore, pursuing a double  degree (BBA/BSc) in Business Administration (Finance) and Business Analytics (Machine Learning). My interests lie in AI, Machine Learning, and big data manipulation. I also love making stuff, and in my free time, I read, kayak, or build stuff!
             </p>
 
-            <a href="#contact" className='btn btn-primary'>Contact Me!</a>
+            <a href="#contact" className='btn btn-primary'>Talk to me!</a>
 
           </div>
 

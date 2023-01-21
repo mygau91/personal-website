@@ -12,10 +12,6 @@
     transition: var(--transition);
 }
 
-.skill_container > div:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
-}
 
 .skill_container > div h3 {
     text-align: center;
@@ -28,6 +24,12 @@
     color: var(--color-primary);
     height: 2rem;
 }
+
+.skill_container > div:hover {
+    background: darkslategray;
+    border-color: var(--color-primary-variant);
+}
+
 
 .skill_content {
     display: grid;
